@@ -1,7 +1,7 @@
 package bean;
 
 public class GP_DETAILS {
-	
+	//drstfkl;
 	private long GPDETAILSSRNO;
 	private long  GPNO;           
 	private long ITEMCODE ;         
