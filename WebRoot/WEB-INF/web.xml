@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TERA_STORES_PURCHASE</servlet-name>
+    <servlet-class>TERA_STORES_PURCHASE</servlet-class>
+  </servlet>
+
+    <servlet>
+    <servlet-name>PRE_LOGIN_CONTROLLER</servlet-name>
+    <servlet-class>PRE_LOGIN_CONTROLLER</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>USER_CONTROLLER</servlet-name>
+    <servlet-class>USER_CONTROLLER</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ITEM_CONTROLLER</servlet-name>
+    <servlet-class>ITEM_CONTROLLER</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MAJOR_MINOR_CONTROLLER</servlet-name>
+    <servlet-class>MAJOR_MINOR_CONTROLLER</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VENDOR_SUPPLIER_CONTROLLER</servlet-name>
+    <servlet-class>VENDOR_SUPPLIER_CONTROLLER</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VENDOR_PROJECT_CONTROLLER</servlet-name>
+    <servlet-class>VENDOR_PROJECT_CONTROLLER</servlet-class>
+  </servlet>
+
+ <servlet>
+    <servlet-name>RTN_CONTROLLER</servlet-name>
+    <servlet-class>RTN_CONTROLLER</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>terasoftware</servlet-name>
+    <servlet-class>terasoftware</servlet-class>
+  </servlet>
+
+  
+ <servlet-mapping>
+    <servlet-name>RTN_CONTROLLER</servlet-name>
+    <url-pattern>/RTN_CONTROLLER</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>TERA_STORES_PURCHASE</servlet-name>
+    <url-pattern>/TERA_STORES_PURCHASE</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>PRE_LOGIN_CONTROLLER</servlet-name>
+    <url-pattern>/PRE_LOGIN_CONTROLLER</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>USER_CONTROLLER</servlet-name>
+    <url-pattern>/USER_CONTROLLER</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ITEM_CONTROLLER</servlet-name>
+    <url-pattern>/ITEM_CONTROLLER</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MAJOR_MINOR_CONTROLLER</servlet-name>
+    <url-pattern>/MAJOR_MINOR_CONTROLLER</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VENDOR_SUPPLIER_CONTROLLER</servlet-name>
+    <url-pattern>/VENDOR_SUPPLIER_CONTROLLER</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VENDOR_PROJECT_CONTROLLER</servlet-name>
+    <url-pattern>/VENDOR_PROJECT_CONTROLLER</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>terasoftware</servlet-name>
+    <url-pattern>/servlet/terasoftware</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>PRE_LOGIN_CONTROLLER</welcome-file>
+  </welcome-file-list>
+</web-app>
